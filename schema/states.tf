@@ -5,7 +5,7 @@
 //configuration.
 terraform {
   backend "s3" {
-    bucket = "objecttechnica-remote-state"
+    bucket = "NameOfS3Bucket-remote-state"
     key    = "ecs/remote_state"
     region = "us-west-2"
   }
